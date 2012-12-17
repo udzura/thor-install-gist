@@ -1,0 +1,1 @@
+require 'thor-install-gist'
