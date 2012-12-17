@@ -14,6 +14,18 @@ Then run below as guide:
 
 Command will be installed into your `$HOME/.thor`.
 
+### Using with bundler
+
+When you use bundler and `Gemfile` in your project, thor command will automatically load the Gemfile.
+
+So if you want to use thor-install-gist command in your project, you must explicitly add below:
+
+```ruby
+gem 'thor-install-gist'
+```
+
+Otherwise you can't load necessary 'thor-install-gist' file...
+
 ## Usage
 
 If you have installed then run below:
