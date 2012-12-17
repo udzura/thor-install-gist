@@ -1,24 +1,29 @@
-# Thor::Install::Gist
+# thor-install-gist
 
-TODO: Write a gem description
+A thor sub-command to install thor tasks from gists
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'thor-install-gist'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Just install it yourself as:
 
     $ gem install thor-install-gist
 
+Command will be installed into your `$HOME/.thor`.
+
 ## Usage
 
-TODO: Write usage instructions here
+If you have installed then run below:
+
+    $ thor install:gist GIST_ID
+
+`GIST_ID` should be a Gist's ID (your `123456`),
+or URL can be used (`https://gist.github.com/123456`) for copying and pasting
+
+Options `--as` and `--force` can be used as you do `thor install`
+
+## License
+
+See LICENSE.txt
 
 ## Contributing
 

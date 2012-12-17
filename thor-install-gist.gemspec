@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Thor::InstallGist::VERSION
   gem.authors       = ["Uchio KONDO"]
   gem.email         = ["udzura@udzura.jp"]
-  gem.description   = %q{Install thor tasks from gists}
-  gem.summary       = %q{Install thor tasks from gists}
+  gem.description   = %q{A thor sub-command to install thor tasks from gists}
+  gem.summary       = %q{A thor sub-command to install thor tasks from gists}
   gem.homepage      = "https://github.com/udzura/thor-install-gist"
 
   gem.files         = `git ls-files`.split($/)
