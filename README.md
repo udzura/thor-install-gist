@@ -8,6 +8,10 @@ Just install it yourself as:
 
     $ gem install thor-install-gist
 
+Then run below as guide:
+
+    $ thor-install-gist-init
+
 Command will be installed into your `$HOME/.thor`.
 
 ## Usage

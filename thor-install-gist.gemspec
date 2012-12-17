@@ -17,5 +17,17 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
+  gem.post_install_message = (<<-EOM).gsub(/^    /, '')
+
+    \e[37mThank you for installing thor-install-gist!
+    You can use a task `thor install:gist' after you run:
+
+        \e[1m\e[33m$ \e[36mthor-install-gist-init
+
+    \e[0m\e[37mThen the command will be installed into your `$HOME/.thor'
+    Enjoy!\e[0m
+
+  EOM
+
   gem.add_runtime_dependency 'thor', '>= 0'
 end
