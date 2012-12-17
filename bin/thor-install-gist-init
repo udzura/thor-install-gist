@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+gem 'thor-install-gist'
+require 'thor-install-gist/initialize'
